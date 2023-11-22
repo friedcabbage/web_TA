@@ -1,4 +1,3 @@
-
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BerandaComponent } from './beranda/beranda.component';
@@ -10,8 +9,7 @@ const appRoutes: Routes = [
   { path: 'beranda', component: BerandaComponent },
   { path: 'monitoring', component: MonitoringComponent },
   { path: 'deteksi', component: DeteksiComponent },
-  { path: 'kontrol', component: KontrolComponent },
-  { path: ' ', redirectTo: '/beranda', pathMatch: 'full' }
+  { path: 'kontrol', component: KontrolComponent }
 ];
 @NgModule({
   imports: [
@@ -24,11 +22,3 @@ const appRoutes: Routes = [
 export class AppRoutingModule { }
 
 export const routingComponents = [BerandaComponent, MonitoringComponent, DeteksiComponent, KontrolComponent]
-
-export const routes: Routes = [
-  { path: 'beranda', component: BerandaComponent },
-  { path: 'monitoring', component: MonitoringComponent },
-  { path: 'deteksi', component: DeteksiComponent },
-  { path: 'kontrol', component: KontrolComponent },
-  { path: '', redirectTo: '/beranda', pathMatch: 'full' }
-];
