@@ -1,0 +1,118 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.deteksierror {
+    background-image: url('backgrounddeteksierror.jpg'); /* Ganti dengan path ke gambar background Anda */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.table-container {
+    overflow-x: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 285px; /* Sesuaikan dengan jarak dari atas yang diinginkan */
+    left: 36%; /* Atur letak horizontal, misalnya di tengah */
+    transform: translateX(-50%); /* Untuk memposisikan tepat di tengah */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Garis pembatas kolom */
+table th:not(:last-child),
+table td:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+
+/* Menambah lebar pada kolom */
+th:nth-child(1),
+td:nth-child(1) {
+    width: 20%; /* Ubah sesuai kebutuhan */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 20%; /* Ubah sesuai kebutuhan */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 20%; /* Ubah sesuai kebutuhan */
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 20%; /* Ubah sesuai kebutuhan */
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+    width: 20%; /* Ubah sesuai kebutuhan */
+}
+
+.controls {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 285px; /* Sesuaikan dengan jarak dari bawah yang diinginkan */
+    left: 80%; /* Atur letak horizontal, misalnya di tengah */
+    transform: translateX(-50%); /* Untuk memposisikan tepat di tengah */
+}
+
+.controls button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

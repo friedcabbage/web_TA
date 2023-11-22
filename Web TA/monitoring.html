@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitoring - Stasiun Cuaca</title>
+    <link rel="stylesheet" href="monitoring.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="beranda.html">Beranda</a></li>
+                <li><a href="monitoring.html">Monitoring</a></li>
+                <li><a href="deteksierror.html">Deteksi Error</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="monitoring">
+            <div class="sensor-data">
+        <!--  
+                <h2>Data Pengukuran</h2>
+              <ul>
+                  <li>Suhu: <span id="suhu-value">--</span></li>
+                  <li>Kecepatan Angin: <span id="kecepatan-angin-value">--</span></li>
+                  <li>Kelembapan Tanah: <span id="kelembapan-tanah-value">--</span></li>
+                  <li>Curah Hujan: <span id="curah-hujan-value">--</span></li>
+              </ul>
+          </div>
+        -->
+
+        
+                <h2>Data Pengukuran</h2>
+                <div class="parameter">
+                    <h3>Suhu:</h3>
+                    <span id="suhu-value">--</span>
+                </div>
+                <div class="parameter">
+                    <h3>Kecepatan Angin:</h3>
+                    <span id="kecepatan-angin-value">--</span>
+                </div>
+                <div class="parameter">
+                    <h3>Kelembapan Tanah:</h3>
+                    <span id="kelembapan-tanah-value">--</span>
+                </div>
+                <div class="parameter">
+                    <h3>Curah Hujan:</h3>
+                    <span id="curah-hujan-value">--</span>
+                </div>
+                </div>
+        
+    
+            <div class="controls">
+                <h2>Kontrol Pengukuran</h2>
+                <button id="btn-control">Aktifkan/Non-aktifkan</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="monitoring.js"></script>
+</body>
+</html>

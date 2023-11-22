@@ -1,0 +1,92 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling bagian monitoring */
+.monitoring {
+    background-image: url('backgroundmonitoring.jpg'); /* Ganti dengan path ke gambar background Anda */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.sensor-data {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 305px; /* Sesuaikan dengan jarak dari atas yang diinginkan */
+    left: 14%; /* Atur letak horizontal, misalnya di tengah */
+    transform: translateX(-50%); /* Untuk memposisikan tepat di tengah */
+}
+
+.sensor-data h2 {
+    margin-bottom: 0px;
+}
+
+.parameter {
+    margin-bottom: 0px;
+}
+
+.parameter h3 {
+    margin-bottom: 0px;
+}
+
+.parameter span {
+    display: block;
+}
+
+.controls {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 305px; /* Sesuaikan dengan jarak dari bawah yang diinginkan */
+    left: 37%; /* Atur letak horizontal, misalnya di tengah */
+    transform: translateX(-50%); /* Untuk memposisikan tepat di tengah */
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
