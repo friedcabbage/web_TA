@@ -11,7 +11,7 @@ const appRoutes: Routes = [
   { path: 'monitoring', component: MonitoringComponent },
   { path: 'deteksi', component: DeteksiComponent },
   { path: 'kontrol', component: KontrolComponent },
-  { path: ' ', redirectTo: '/beranda', pathMatch: 'full' }
+  { path: ' ', redirectTo: 'beranda', pathMatch: 'full' }
 ];
 @NgModule({
   imports: [
